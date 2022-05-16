@@ -1,0 +1,32 @@
+/*
+ * ICU_cfg.h
+ *
+ *  Created on: May 6, 2022
+ *      Author: Kishk
+ */
+
+#ifndef MCAL_ICU_ICU_CFG_H_
+#define MCAL_ICU_ICU_CFG_H_
+
+/*
+ * OPTIONS:-
+ * 1-	ICU_u8NOISE_CANCELER_N_ACT
+ * 2-	ICU_u8NOISE_CANCELER_ACT
+ * */
+#define ICU_u8NOICE_CANCELER			ICU_u8NOISE_CANCELER_N_ACT
+/*
+ * OPTIONS:-
+ * 1-	ICU_u8FALLING_EDGE
+ * 2-	ICU_u8RISING_EDGE
+ * */
+#define ICU_u8EDGE_SELECT				ICU_u8RISING_EDGE
+/*
+ * OPTIONS:-
+ * 1-	ICU_u8INTERRUPT_ON
+ * 2-	ICU_u8INTERRUPT_OFF
+ * */
+#define ICU_u8INTERRUPT_CTRL			ICU_u8INTERRUPT_ON
+
+
+
+#endif /* MCAL_ICU_ICU_CFG_H_ */

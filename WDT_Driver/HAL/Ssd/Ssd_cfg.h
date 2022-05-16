@@ -1,0 +1,65 @@
+/*
+ * Ssd_cfg.h
+ *
+ *  Created on: Mar 21, 2022
+ *      Author: Kishk
+ */
+
+#ifndef HAL_SSD_SSD_CFG_H_
+#define HAL_SSD_SSD_CFG_H_
+
+
+#define SSD0_u8PINA				DIO_u8CHANNEL00
+#define SSD0_u8PINB				DIO_u8CHANNEL01
+#define SSD0_u8PINC				DIO_u8CHANNEL02
+#define SSD0_u8PIND				DIO_u8CHANNEL03
+#define SSD0_u8PINE				DIO_u8CHANNEL04
+#define SSD0_u8PINF				DIO_u8CHANNEL05
+#define SSD0_u8PING				DIO_u8CHANNEL06
+
+
+
+#define SSD1_u8PINA				DIO_u8CHANNEL07
+#define SSD1_u8PINB				DIO_u8CHANNEL08
+#define SSD1_u8PINC				DIO_u8CHANNEL09
+#define SSD1_u8PIND				DIO_u8CHANNEL10
+#define SSD1_u8PINE				DIO_u8CHANNEL11
+#define SSD1_u8PINF				DIO_u8CHANNEL12
+#define SSD1_u8PING				DIO_u8CHANNEL13
+
+
+
+#define SSD2_u8PINA				DIO_u8CHANNEL14
+#define SSD2_u8PINB				DIO_u8CHANNEL15
+#define SSD2_u8PINC				DIO_u8CHANNEL16
+#define SSD2_u8PIND				DIO_u8CHANNEL17
+#define SSD2_u8PINE				DIO_u8CHANNEL18
+#define SSD2_u8PINF				DIO_u8CHANNEL19
+#define SSD2_u8PING				DIO_u8CHANNEL20
+
+
+
+#define SSD3_u8PINA				DIO_u8CHANNEL21
+#define SSD3_u8PINB				DIO_u8CHANNEL22
+#define SSD3_u8PINC				DIO_u8CHANNEL23
+#define SSD3_u8PIND				DIO_u8CHANNEL24
+#define SSD3_u8PINE				DIO_u8CHANNEL25
+#define SSD3_u8PINF				DIO_u8CHANNEL26
+#define SSD3_u8PING				DIO_u8CHANNEL27
+
+
+#define SSD_u8COMMON			SSD_u8COMMON_CATHOD
+
+
+/*
+ * OPTIONS:-
+ * 1- SSD_u8ONE
+ * 2- SSD_u8TWO
+ * 3- SSD_u8THREE
+ * 4- SSD_u8FOUR*/
+
+#define SSD_u8NUMBER_OF_SDD				SSD_u8ONE
+
+
+
+#endif /* HAL_SSD_SSD_CFG_H_ */
