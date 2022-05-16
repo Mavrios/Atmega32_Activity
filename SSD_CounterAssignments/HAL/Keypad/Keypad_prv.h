@@ -1,0 +1,25 @@
+/*
+ * Keypad_prv.h
+ *
+ *  Created on: Mar 19, 2022
+ *      Author: Kishk
+ */
+
+#ifndef HAL_KEYPAD_KEYPAD_PRV_H_
+#define HAL_KEYPAD_KEYPAD_PRV_H_
+
+
+#define KEYPAD_u8ROWS			4
+#define KEYPAD_u8COLS			4
+#define INITZERO				0
+
+
+static u8 KeypadOutput[] = {KEYPAD_u8ROW0_COL0 , KEYPAD_u8ROW0_COL1 , KEYPAD_u8ROW0_COL2 , KEYPAD_u8ROW0_COL3,
+							KEYPAD_u8ROW1_COL0 , KEYPAD_u8ROW1_COL1 , KEYPAD_u8ROW1_COL2 , KEYPAD_u8ROW1_COL3,
+							KEYPAD_u8ROW2_COL0 , KEYPAD_u8ROW2_COL1 , KEYPAD_u8ROW2_COL2 , KEYPAD_u8ROW2_COL3,
+							KEYPAD_u8ROW3_COL0 , KEYPAD_u8ROW3_COL1 , KEYPAD_u8ROW3_COL2 , KEYPAD_u8ROW3_COL3};
+
+static void vidSetRowPattern(u8 Copy_u8Row);
+
+
+#endif /* HAL_KEYPAD_KEYPAD_PRV_H_ */

@@ -1,0 +1,47 @@
+/*
+ * Keypad_cfg.h
+ *
+ *  Created on: Mar 19, 2022
+ *      Author: Kishk
+ */
+
+#ifndef HAL_KEYPAD_KEYPAD_CFG_H_
+#define HAL_KEYPAD_KEYPAD_CFG_H_
+
+
+#define KEYPAD_u8ROW0_PIN		DIO_u8CHANNEL08
+#define KEYPAD_u8ROW1_PIN		DIO_u8CHANNEL09
+#define KEYPAD_u8ROW2_PIN		DIO_u8CHANNEL10
+#define KEYPAD_u8ROW3_PIN		DIO_u8CHANNEL11
+
+
+#define KEYPAD_u8COL0_PIN		DIO_u8CHANNEL12
+#define KEYPAD_u8COL1_PIN		DIO_u8CHANNEL13
+#define KEYPAD_u8COL2_PIN		DIO_u8CHANNEL14
+#define KEYPAD_u8COL3_PIN		DIO_u8CHANNEL15
+
+
+#define KEYPAD_u8ROW0_COL0		'1'
+#define KEYPAD_u8ROW0_COL1		'2'
+#define KEYPAD_u8ROW0_COL2		'3'
+#define KEYPAD_u8ROW0_COL3		'+'
+
+#define KEYPAD_u8ROW1_COL0		'4'
+#define KEYPAD_u8ROW1_COL1		'5'
+#define KEYPAD_u8ROW1_COL2		'6'
+#define KEYPAD_u8ROW1_COL3		'-'
+
+#define KEYPAD_u8ROW2_COL0		'7'
+#define KEYPAD_u8ROW2_COL1		'8'
+#define KEYPAD_u8ROW2_COL2		'9'
+#define KEYPAD_u8ROW2_COL3		'*'
+
+#define KEYPAD_u8ROW3_COL0		'E'
+#define KEYPAD_u8ROW3_COL1		'0'
+#define KEYPAD_u8ROW3_COL2		'C'
+#define KEYPAD_u8ROW3_COL3		'/'
+
+
+
+
+#endif /* HAL_KEYPAD_KEYPAD_CFG_H_ */
